@@ -1,0 +1,2 @@
+#!/bin/bash
+cp .htaccess $APP_ROOT/src/
