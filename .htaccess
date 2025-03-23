@@ -5,3 +5,9 @@ RewriteRule ^(.*)$ https://c2i-tice.forge.apps.education.fr/04_outils_num/03_fab
 
 RewriteCond %{REQUEST_URI} ^/2020/01/13/modelisation-3d-avec-geogebra-dun-solide-en-vue-de-son-impression-3d-en-mode-filaire-exemple-dune-stella-octangula/
 RewriteRule ^(.*)$ https://c2i-tice.forge.apps.education.fr/04_outils_num/03_fablab/2020-01-13-mode3d-ggb-stellaOcta-filaire/ [R=301,L]
+
+RewriteCond %{REQUEST_URI} ^/2020/01/12/modelisation-3d-avec-sketchup-dune-stella-octangula-et-sa-reparation-en-vue-de-son-impression-3d/ 
+RewriteRule ^(.*)$ https://c2i-tice.forge.apps.education.fr/04_outils_num/03_fablab/2020-01-12-mode3d-sketchup-stellaOct-3d/ [R=301,L]
+
+RewriteCond %{REQUEST_URI} ^/geogebra/ 
+RewriteRule ^(.*)$ https://c2i-tice.forge.apps.education.fr/01_geom_dyn/01_GGB/ [R=301,L]
