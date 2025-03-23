@@ -11,3 +11,18 @@ RewriteRule ^(.*)$ https://c2i-tice.forge.apps.education.fr/04_outils_num/03_fab
 
 RewriteCond %{REQUEST_URI} ^/geogebra/ 
 RewriteRule ^(.*)$ https://c2i-tice.forge.apps.education.fr/01_geom_dyn/01_GGB/ [R=301,L]
+
+RewriteCond %{REQUEST_URI} ^/2023/10/21/le-generateur-de-solides/ 
+RewriteRule ^(.*)$ https://c2i-tice.forge.apps.education.fr/04_outils_num/03_fablab/2023-10-21-le-generateur-de-solides/ [R=301,L]
+
+RewriteCond %{REQUEST_URI} ^/2023/11/04/mathalea/ 
+RewriteRule ^(.*)$ https://c2i-tice.forge.apps.education.fr/04_outils_num/01_applis_logiciels/2023-11-04-mathalea/ [R=301,L]
+
+RewriteCond %{REQUEST_URI} ^/2023/10/21/pyggb/ 
+RewriteRule ^(.*)$ https://c2i-tice.forge.apps.education.fr/04_outils_num/01_applis_logiciels/2023-10-21-pyggb/ [R=301,L]
+
+RewriteCond %{REQUEST_URI} ^/2023/11/10/pytch/ 
+RewriteRule ^(.*)$ https://c2i-tice.forge.apps.education.fr/04_outils_num/01_applis_logiciels/2023-11-10-pytch/ [R=301,L]
+
+RewriteCond %{REQUEST_URI} ^/2023/10/29/python-tutor/ 
+RewriteRule ^(.*)$ https://c2i-tice.forge.apps.education.fr/04_outils_num/01_applis_logiciels/2023-10-29-python-tutor/ [R=301,L]
