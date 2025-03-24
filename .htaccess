@@ -26,3 +26,21 @@ RewriteRule ^(.*)$ https://c2i-tice.forge.apps.education.fr/04_outils_num/01_app
 
 RewriteCond %{REQUEST_URI} ^/2023/10/29/python-tutor/ 
 RewriteRule ^(.*)$ https://c2i-tice.forge.apps.education.fr/04_outils_num/01_applis_logiciels/2023-10-29-python-tutor/ [R=301,L]
+
+RewriteCond %{REQUEST_URI} ^/2023/11/02/super-coding-ball/ 
+RewriteRule ^(.*)$ https://c2i-tice.forge.apps.education.fr/04_outils_num/01_applis_logiciels/2023-11-02-super-coding-ball/ [R=301,L]
+
+RewriteCond %{REQUEST_URI} ^/2023/10/15/elementor-6481/
+RewriteRule ^(.*)$ https://c2i-tice.forge.apps.education.fr/04_outils_num/01_applis_logiciels/2023-10-15-tarsia/ [R=301,L]
+
+RewriteCond %{REQUEST_URI} ^/2022/06/25/scratchggb/ 
+RewriteRule ^(.*)$ https://c2i-tice.forge.apps.education.fr/04_outils_num/01_applis_logiciels/2022-06-25-scratchggb/ [R=301,L]
+
+RewriteCond %{REQUEST_URI} ^/2022/11/02/6388/
+RewriteRule ^(.*)$ https://c2i-tice.forge.apps.education.fr/04_outils_num/01_applis_logiciels/2022-11-02-atelierNumerique/ [R=301,L]
+
+RewriteCond %{REQUEST_URI} ^/2024/03/18/la-geometrie-dans-lespace-avec-lirem-de-paris-nord/
+RewriteRule ^(.*)$ https://c2i-tice.forge.apps.education.fr/01_geom_dyn/01_GGB/2024-03-18-iremParisNord-espace/ [R=301,L]
+
+RewriteCond %{REQUEST_URI} ^/2024/03/23/la-restauration-de-constructions-geometriques-avec-lirem-de-paris-nord/
+RewriteRule ^(.*)$ https://c2i-tice.forge.apps.education.fr/01_geom_dyn/01_GGB/2024-03-23-iremParisNord-constructions-geometriques/ [R=301,L]
