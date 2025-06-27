@@ -1,4 +1,4 @@
-RedirectMatch 301 ^/ https://c2i-tice.forge.apps.education.fr/
+RedirectMatch 301 ^/$ https://c2i-tice.forge.apps.education.fr/
 RewriteEngine On
 RewriteCond %{REQUEST_URI} ^/2021/07/13/modelisation-avec-geogebra-dun-patron-sans-colle-dune-stella-octangula-et-fractale-pour-sa-decoupe-numerique/$
 RewriteRule ^(.*)$ https://c2i-tice.forge.apps.education.fr/04_outils_num/03_fablab/2021-07-13-modeGGBpatronSansColleStellaFractale/ [R=301,L]
@@ -45,6 +45,6 @@ RewriteRule ^(.*)$ https://c2i-tice.forge.apps.education.fr/01_geom_dyn/01_GGB/2
 RewriteCond %{REQUEST_URI} ^/2024/03/23/la-restauration-de-constructions-geometriques-avec-lirem-de-paris-nord/
 RewriteRule ^(.*)$ https://c2i-tice.forge.apps.education.fr/01_geom_dyn/01_GGB/2024-03-23-iremParisNord-constructions-geometriques/ [R=301,L]
 
-RewriteCond %{REQUEST_URI} ^/?page_id=122
+RewriteCond %{QUERY_STRING} (^|&)page_id=122(&|$)
 RewriteRule ^(.*)$ https://c2i-tice.forge.apps.education.fr/01_geom_dyn/01_GGB/ [R=301,L]
 
