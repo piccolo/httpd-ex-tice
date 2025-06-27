@@ -45,6 +45,4 @@ RewriteRule ^(.*)$ https://c2i-tice.forge.apps.education.fr/01_geom_dyn/01_GGB/2
 RewriteCond %{REQUEST_URI} ^/2024/03/23/la-restauration-de-constructions-geometriques-avec-lirem-de-paris-nord/
 RewriteRule ^(.*)$ https://c2i-tice.forge.apps.education.fr/01_geom_dyn/01_GGB/2024-03-23-iremParisNord-constructions-geometriques/ [R=301,L]
 
-RewriteCond %{QUERY_STRING} (^|&)page_id=122(&|$)
-RewriteRule ^(.*)$ https://c2i-tice.forge.apps.education.fr/01_geom_dyn/01_GGB/ [R=301,L,QSD]
-
+Redirect 301 /?page_id=122 https://c2i-tice.forge.apps.education.fr/01_geom_dyn/01_GGB/
